@@ -6,7 +6,17 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+label {
+  cursor: pointer;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+input {
+  height: 30px;
+  width: 30px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
